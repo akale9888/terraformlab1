@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "a+GhJEGZWwehmM+VR9Mb4evUC0qwOTx2sAr/5jes"
 }
 resource "aws_s3_bucket" "s3bucket" {
-  bucket = "s3terraformbucket"
+  bucket = "sssterraformbucketakb"
 }
 
 # resource "aws_s3_bucket_acl" "example" {
